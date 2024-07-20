@@ -1,0 +1,7 @@
+AuthType "Basic"
+
+AuthName "Acesso Restrito"
+
+AuthUserFile "C:\xampp\htdocs\Formulario-Inscricao\respostas\.htpasswd"
+
+Require valid-user
