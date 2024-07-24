@@ -9,16 +9,15 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $cpf = $_POST['cpf'];
 $celular = $_POST['celular'];
-$setor = $_POST['setor'];
+$empresa = $_POST['empresa'];
 $cargo = $_POST['cargo'];
-$matriz = $_POST['matriz'];
 
-$sql = "INSERT INTO dados (nome, email, cpf, celular, setor, cargo, matriz) VALUES ('$nome', '$email', '$cpf', '$celular', '$setor', '$cargo', '$matriz')";
+$sql = "INSERT INTO dados (nome, email, cpf, celular, empresa, cargo) VALUES ('$nome', '$email', '$cpf', '$celular', '$empresa', '$cargo')";
 
 
 
 if($conn->query($sql) === TRUE) {
-    header("refresh: 3; url= http://localhost/Formulario-Inscricao/php/index.php");
+    header("refresh: 3; url= http://localhost/Formulario-ODS/php/index.php");
 } else {
     echo "Não enviado.";
 }

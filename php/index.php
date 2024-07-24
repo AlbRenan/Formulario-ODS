@@ -18,7 +18,8 @@ include_once("conexao.php");
 
     <div class="form"><br>
         <div class="logo">
-        <img src="../img/logo_unidas.png" alt="Logo">
+        <img src="../img/logo_unidas.png" alt="Logo_Unidas">
+        <img src="../img/logo_sp.png" alt="Logo_SP">
         </div>
 
         <div class="info">
@@ -28,41 +29,28 @@ include_once("conexao.php");
         <form action="envio.php" method="POST">
         <div class="form-group">
             <label for="nome">Nome:</label><br>
-            <input maxlength="200" type="text" name="nome" id="nome" placeholder="Digite seu nome"><br><br>
+            <input maxlength="200" type="text" name="nome" id="nome" placeholder="Digite seu nome" required><br><br>
         </div>
         <div class="form-group">
             <label for="email">E-mail Institucional:</label><br>
-            <input maxlength="255" type="email" name="email" id="email" placeholder="Digite seu email"><br><br>
+            <input maxlength="255" type="email" name="email" id="email" placeholder="Digite seu email" required><br><br>
         </div>
         <div class="form-group">
             <label for="cpf">CPF:</label><br>
-            <input maxlength="16" type="text" name="cpf" id="cpf" placeholder="Digite seu CPF"><br><br>
+            <input maxlength="16" type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required><br><br>
         </div>
         <div class="form-group">
             <label for="celular">Celular:</label><br>
-            <input maxlength="17" type="text" name="celular" id="celular" placeholder="Digite seu telefone celular"><br><br>
+            <input maxlength="17" type="text" name="celular" id="celular" placeholder="Digite seu telefone celular" required><br><br>
         </div>
         <div class="form-group">
-            <label for="setor">Setor:</label><br>
-            <input maxlength="200" type="text" name="setor" id="setor" placeholder="Digite seu setor"><br><br>
+            <label for="empresa">Empresa:</label><br>
+            <input maxlength="200" type="text" name="empresa" id="empresa" placeholder="Digite seu setor" required><br><br>
         </div>
         <div class="form-group">
             <label for="cargo">Cargo:</label><br>
-            <input maxlength="150" type="text" name="cargo" id="cargo" placeholder="Digite seu cargo"><br><br>
+            <input maxlength="150" type="text" name="cargo" id="cargo" placeholder="Digite seu cargo" required><br><br>
         </div>
-        <div class="form-group">
-            <label for="unidade">Matriz:</label><br>
-            <select maxlength="255" name="matriz" id="matriz">
-                <option selected disabled>Selecione</option>
-                <option value="Itaquera">Hospital Santa Marcelina Itaquera</option>
-                <option value="Itaim">Hospital Santa Marcelina Itaim Paulista</option>
-                <option value="Tiradentes">Hospital Santa Marcelina Cidade Tiradentes</option>
-                <option value="Neomater">Hospital Santa Marcelina Neomater</option>
-                <option value="Porto">Hospital Santa Marcelina Porto Velho</option>
-                <option value="Sapezal">Hospital Santa Marcelina Sapezal</option>
-                <option value="APS">APS - Atenção Primária a Saúde</option>
-            </select>
-        </div><br>
 
         <div class="botoes">
              <input type="submit" name="submit" id="submit"><br>
