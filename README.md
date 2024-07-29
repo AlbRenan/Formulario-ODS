@@ -6,7 +6,7 @@
 <li>Contém uma página inicial, onde é apresentado as informações do evento, por exemplo, data, horário de início e fim da do evento, local, e o endereço do local.</li>
 <li>O usuário que for se inscrever, terá que apresentar as seguintes informações: nome, email institucional, cpf, celular, empresa e o cargo.</li>
 <li>Também foi criado uma página onde mostra as informações fornecidas, onde somente uma pessoa terá acesso.</li>
-<li>para uma melhor segurança das informações dos usuários foi utilizado um arquivo .htaccess, onde protege a pasta que está as informações e para proteção foi utilizado um arquivo .htpasswd com senha criptografada.</li>
+<li>Para uma melhor segurança das informações dos usuários foi utilizado um arquivo .htaccess, onde protege a pasta que está as informações e para proteção foi utilizado um arquivo .htpasswd com senha criptografada.</li>
 
 <h1>Ambiente Utilizado:</h1>
 <li>VSCode</li>
